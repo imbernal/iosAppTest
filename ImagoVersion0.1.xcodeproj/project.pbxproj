@@ -14,6 +14,14 @@
 		DC0273991C9496F100D3E22B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0273971C9496F100D3E22B /* LaunchScreen.storyboard */; };
 		DC0273A41C9496F100D3E22B /* ImagoVersion0_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0273A31C9496F100D3E22B /* ImagoVersion0_1Tests.swift */; };
 		DC0273AF1C9496F100D3E22B /* ImagoVersion0_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0273AE1C9496F100D3E22B /* ImagoVersion0_1UITests.swift */; };
+		DC0273C11C94A31A00D3E22B /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC0273BC1C94A31A00D3E22B /* 1.jpg */; };
+		DC0273C21C94A31A00D3E22B /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC0273BD1C94A31A00D3E22B /* 2.jpg */; };
+		DC0273C31C94A31A00D3E22B /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC0273BE1C94A31A00D3E22B /* 3.jpg */; };
+		DC0273C41C94A31A00D3E22B /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC0273BF1C94A31A00D3E22B /* 4.jpg */; };
+		DC0273C51C94A31A00D3E22B /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC0273C01C94A31A00D3E22B /* 5.jpg */; };
+		DC0273C71C94A4A600D3E22B /* ColleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0273C61C94A4A600D3E22B /* ColleCollectionViewCell.swift */; };
+		DC0273C91C94AB8B00D3E22B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0273C81C94AB8B00D3E22B /* DetailsViewController.swift */; };
+		DC790AEA1C95B75A009FA886 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC790AE91C95B75A009FA886 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		DC0273AA1C9496F100D3E22B /* ImagoVersion0.1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagoVersion0.1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0273AE1C9496F100D3E22B /* ImagoVersion0_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagoVersion0_1UITests.swift; sourceTree = "<group>"; };
 		DC0273B01C9496F100D3E22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC0273BC1C94A31A00D3E22B /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		DC0273BD1C94A31A00D3E22B /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		DC0273BE1C94A31A00D3E22B /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		DC0273BF1C94A31A00D3E22B /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		DC0273C01C94A31A00D3E22B /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		DC0273C61C94A4A600D3E22B /* ColleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColleCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC0273C81C94AB8B00D3E22B /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		DC790AE91C95B75A009FA886 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +114,19 @@
 			isa = PBXGroup;
 			children = (
 				DC02738E1C9496F100D3E22B /* AppDelegate.swift */,
+				DC0273C81C94AB8B00D3E22B /* DetailsViewController.swift */,
 				DC0273901C9496F100D3E22B /* ViewController.swift */,
+				DC0273C61C94A4A600D3E22B /* ColleCollectionViewCell.swift */,
 				DC0273921C9496F100D3E22B /* Main.storyboard */,
 				DC0273951C9496F100D3E22B /* Assets.xcassets */,
 				DC0273971C9496F100D3E22B /* LaunchScreen.storyboard */,
 				DC02739A1C9496F100D3E22B /* Info.plist */,
+				DC0273BC1C94A31A00D3E22B /* 1.jpg */,
+				DC0273BD1C94A31A00D3E22B /* 2.jpg */,
+				DC0273BE1C94A31A00D3E22B /* 3.jpg */,
+				DC0273BF1C94A31A00D3E22B /* 4.jpg */,
+				DC0273C01C94A31A00D3E22B /* 5.jpg */,
+				DC790AE91C95B75A009FA886 /* API.swift */,
 			);
 			path = ImagoVersion0.1;
 			sourceTree = "<group>";
@@ -230,6 +254,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC0273991C9496F100D3E22B /* LaunchScreen.storyboard in Resources */,
+				DC0273C51C94A31A00D3E22B /* 5.jpg in Resources */,
+				DC0273C41C94A31A00D3E22B /* 4.jpg in Resources */,
+				DC0273C11C94A31A00D3E22B /* 1.jpg in Resources */,
+				DC0273C21C94A31A00D3E22B /* 2.jpg in Resources */,
+				DC0273C31C94A31A00D3E22B /* 3.jpg in Resources */,
 				DC0273961C9496F100D3E22B /* Assets.xcassets in Resources */,
 				DC0273941C9496F100D3E22B /* Main.storyboard in Resources */,
 			);
@@ -256,8 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0273C71C94A4A600D3E22B /* ColleCollectionViewCell.swift in Sources */,
 				DC0273911C9496F100D3E22B /* ViewController.swift in Sources */,
 				DC02738F1C9496F100D3E22B /* AppDelegate.swift in Sources */,
+				DC0273C91C94AB8B00D3E22B /* DetailsViewController.swift in Sources */,
+				DC790AEA1C95B75A009FA886 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ImagoVersion0.1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-2.ImagoVersion0-1";
@@ -410,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ImagoVersion0.1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-2.ImagoVersion0-1";
@@ -484,6 +518,7 @@
 				DC0273B51C9496F100D3E22B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC0273B61C9496F100D3E22B /* Build configuration list for PBXNativeTarget "ImagoVersion0.1Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +527,7 @@
 				DC0273B81C9496F100D3E22B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC0273B91C9496F100D3E22B /* Build configuration list for PBXNativeTarget "ImagoVersion0.1UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +536,7 @@
 				DC0273BB1C9496F100D3E22B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

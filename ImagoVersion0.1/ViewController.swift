@@ -8,10 +8,26 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController , UICollectionViewDataSource , UICollectionViewDelegate {
 
+    var imageList:[String] = []
+    
+    var name: AnyObject?{
+        get {
+            return NSUserDefaults.standardUserDefaults().objectForKey("name")
+        }
+        set{
+            NSUserDefaults.standardUserDefaults().setObject(newValue, forKey: "name")
+            NSUserDefaults.standardUserDefaults().synchronize()
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        imageList = ["1.jpg" , "2.jpg" , "3.jpg" , "4.jpg" , "5.jpg"]
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -19,7 +35,23 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return  imageList.count
+    }
+    
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! ColleCollectionViewCell
+        
+        cell.ImageView.image = UIImage(named: imageList[indexPath.row])
+        
+        return cell
+    }
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        name = imageList[indexPath.row]
+    }
 
 }
 
